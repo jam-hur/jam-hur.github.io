@@ -1,0 +1,11 @@
+.heading{
+    color: blue
+}
+
+#button{
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+    padding: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
