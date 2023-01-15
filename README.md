@@ -1,1 +1,0 @@
-# jam-hur.github.io
