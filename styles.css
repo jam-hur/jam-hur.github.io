@@ -35,7 +35,7 @@ a {
 
 .full-screen-header {
   height: 100vh;
-  background-image: url("/resources/Hero\ Image-1.jpg");
+  background-image: url("./resources/photos/3.jpg");
   background-size: cover;
   background-position-x: 40%;
   background-position-y: center;
@@ -191,7 +191,7 @@ a {
   min-width: 450px;
   background-color: rgb(152, 48, 48);
   background-size: cover;
-  background-image: url(./resources/chilla.png);
+  background-image: url(./resources/photos/1.jpg);
   background-position-x: 40%;
   box-shadow: var(--shadows);
   left: 20%;
@@ -263,7 +263,7 @@ form h2 {
 }
 
 input,
-select {
+select, textarea {
   
   padding: 5px;
   margin-bottom: 30px;
@@ -281,6 +281,19 @@ input::placeholder {
   color: #5B735F;
 }
 
+input:not([music-artist], [music-title]):valid {
+  background-image: url(./resources/square-check-thin.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  color: green;
+}
+
+input:not([music-artist], [music-title]):invalid {
+  background-image: url(./resources/square-xmark-thin.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
 option:focus {
   border: none;
 }
@@ -293,8 +306,13 @@ option {
 input:focus {
   box-shadow: none;
   border-color: transparent;
-  /* outline-style: dashed;
-  outline-color: #222e50; */
+  background-color: var(--accent-background-colour);
+  color: var(--info-card-colour);
+}
+
+textarea:focus {
+  box-shadow: none;
+  border-color: transparent;
   background-color: var(--accent-background-colour);
   color: var(--info-card-colour);
 }
@@ -560,7 +578,7 @@ input:focus {
 .nikola-estate-image {
   height: 40vh;
   width: 45%;
-  background-image: url(./resources/swan_valley_photos/nikola-estate-aerial.png);
+  background-image: url(./resources/photos/nikola-estate-aerial-view-jacaranda-vines-and-chapel.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: var(--shadows);
@@ -677,7 +695,7 @@ input:focus {
   margin: 5%;
   row-gap: 2em;
   column-gap: 3rem;
-  justify-items: center;
+  justify-items: left;
   z-index: 1;
   border: 1px solid #568061;
   padding: 90px 72px 90px 72px;
@@ -949,9 +967,9 @@ h1.tag-line {
 
 .full-screen-header {
   height: 100vh;
-  background-image: url("/resources/Hero\ Image-1.jpg");
+  background-image: url("./resources/photos/3.jpg");
   background-size: cover;
-  background-position-x: 50%;
+  background-position-x: 48%;
   background-position-y: center;
 }
 
