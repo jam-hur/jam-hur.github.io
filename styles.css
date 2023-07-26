@@ -121,7 +121,7 @@ a {
   background-size: cover;
   background-position-x: center;
   background-position-y: 100%;
-  width: 100vw;
+  /* width: 100vw; */
   height: 300px;
 }
 
@@ -131,7 +131,7 @@ a {
   background-size: cover;
   background-position-x: center;
   background-position-y: 0%;
-  width: 100vw;
+  /* width: 100vw; */
   height: 300px;
   z-index: 10;
 }
@@ -149,7 +149,7 @@ a {
   padding: 100px 100px 100px 100px;
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  /* width: 100vw; */
   justify-content: space-evenly;
   align-items: center;
 }
@@ -439,7 +439,7 @@ textarea:focus {
 
 .schedule {
   padding: 0 72px 90px 72px;
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   justify-content: center;
   z-index: -10;
@@ -596,7 +596,7 @@ textarea:focus {
 .background-image-div {
   background-image: linear-gradient(#D5DBD2, #D5DBD2);
   height: 70%;
-  width: 100vw;
+  /* width: 100vw; */
   position: absolute;
   top: 20%;
   bottom: 20%;
@@ -606,6 +606,7 @@ textarea:focus {
 .grid-container {
   display: grid;
   justify-content: center;
+  /* max-width: 1700px; */
   grid-template-columns: minmax(200px, .6fr) minmax(200px, .6fr) minmax(200px, .6fr);
   margin: 5%;
   row-gap: 1em;
@@ -622,7 +623,7 @@ textarea:focus {
 .info-card, .accomodation-card {
   background-color: var(--info-card-colour);
   color: white;
-  max-width: 500px;
+  max-width: 776px;
   box-shadow: 1px 4px 20px 1px rgb(141, 146, 154);
   z-index: 2;
 }
@@ -1087,7 +1088,7 @@ h1.tag-line {
   }
 
   .accent-section {
-    max-width: 100vw;
+    /* max-width: 100vw; */
   }
   
   
@@ -1151,13 +1152,13 @@ h1.tag-line {
 
 }
 
-
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 1400px) {
   .grid-container {
     grid-template-columns: 1fr;
     
   }
-}
+} 
+
 
 /* .gm-style .gm-style-iw-c {
   use this to style the maps pop-up
@@ -1166,7 +1167,7 @@ h1.tag-line {
 /* ICONS */
 
 .fa-van-shuttle, .fa-plane-departure, .fa-calendar-day, .fa-bed,
-.fa-map-location-dot, .fa-utensils {
+.fa-map-location-dot, .fa-utensils, .fa-plane-arrival, .fa-mask-snorkel, .fa-bus, .fa-grapes {
   font-size: 3rem;
   animation-duration: var(--fa-animation-duration);
 }
