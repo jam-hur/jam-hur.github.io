@@ -892,6 +892,10 @@ h1.tag-line {
   color: white;
 }
 
+.btn-footer:hover:after {
+  content: " Coming Soon";
+}
+
 .rsvp-btn {
   color: white;
   border-color: white;
