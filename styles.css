@@ -15,6 +15,7 @@
   --fa-animation-duration: 5s;
 }
 
+
 body {
 color: #696969;
 }
@@ -39,6 +40,36 @@ a {
   background-size: cover;
   background-position-x: 40%;
   background-position-y: center;
+}
+
+.thankyou-header {
+  height: 100vh;
+  background-image: url("./resources/photos/4.jpg");
+  background-size: cover;
+  background-position-x: 40%;
+  background-position-y: center;
+}
+
+.thankyou-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50vh;
+}
+
+.thankyou-container {
+    background-color: var(--accent-background-colour);
+    margin-left: 45vw;
+    margin-right: auto;
+    max-width: 1374.5px;
+}
+
+.para-thankyou {
+  width: 500px;
+  align-items: center;
+  height: fit-content;
+  padding: 50px;
 }
 
 .header-container {
@@ -892,9 +923,10 @@ h1.tag-line {
   border: 1px solid white;
   transition: 800ms;
   color: white;
+  transition: 3ms;
 }
 
-.btn-footer:hover:after {
+.btn-footer-gallery:hover:after {
   content: " Coming Soon";
 }
 

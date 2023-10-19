@@ -7,11 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M&E Wedding</title>
     <link rel="icon" href="./resources/rings-wedding-regular.svg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/qcz3kdn.css">
     <script src="https://kit.fontawesome.com/c9c035c0cb.js" crossorigin="anonymous"></script>
@@ -29,7 +38,7 @@
 <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">matt and elyse</a>
+            <a href="https://www.mattandelyse.com.au" class="navbar-brand">matt and elyse</a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
                 aria-label="Expand Navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,7 +61,7 @@
                         <a href="#gallery" class="nav-link disabled">Gallery</a>
                     </li>
                     <li class="nav-item rsvp-menu-btn">
-                        <a href="#RSVP-sec" class="nav-link disabled">RSVP</a>
+                        <a href="#RSVP-sec" class="nav-link">RSVP</a>
                     </li>
                 </ul>
             </div>
@@ -98,7 +107,7 @@
 
 <!-- BANNER SECTION -->
 
-<section class="section banner-section">
+<!-- <section class="section banner-section">
     <div class="banner-container">
         <div class="banner-textbox">
             <h3 class="banner-heading">RSVP</h3>
@@ -106,11 +115,11 @@
         </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- SCHEDULE SECTION -->
-<h3 class="schedule-heading">Schedule</h3>
-        <section id="schedule" class="schedule">
+<h3 class="schedule-heading" id="schedule">Schedule</h3>
+        <section class="schedule">
         
             <div class="timeline-container">
             <span>
@@ -343,19 +352,19 @@
 
      <!-- IMAGE BORDER TOP -->
      
-     <!-- <div class="decorative-border-top" id="RSVP-sec">
+     <div class="decorative-border-top">
     
-     </div> -->
-     <!-- <section class="section RSVP-section">
+     </div>
+     <section class="section RSVP-section" id="RSVP-sec">
          <div class="accent-section marriage-blurb footer-decoration">
              <div class="para">
-                 <h2 class="section-title">we're getting married</h2>
-                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis porro cupiditate totam neque
-                     vitae similique sed veritatis, minima architecto, dolor consequatur asperiores ipsa ullam
-                     temporibus ab odit in atque vero alias. Explicabo nulla doloribus quis, exercitationem sint eos
-                     cupiditate quas aperiam magnam dolore, et expedita ex magni! Maxime ducimus temporibus cum
-                     explicabo, nam aperiam consectetur qui quibusdam deserunt illum id.
-                 </p>
+                 <h2 class="section-title">rsvp</h2>
+                 <p>It means a lot to us to celebrate our special day with our most special people and we hope you'll be able to dance the night away with us.</p>
+                 <p>Please let us know if you can join us by submitting the online RSVP form.</p>
+                 <p> You can submit the form as many times as you like if your details change or if your accomodation isn't booked yet. It would be helpful to have your accommodation address for us to organise the transport hubs. We just kindly ask that you let us know by the <strong>15th of January, 2024</strong>.</p>
+                 <p>  
+                    To assist with dietary requirements, please <strong>respond for each individual guest using individual email addresses.
+                    </strong></p>
              </div>
              
              <div class="form-container" id="RSVP">
@@ -370,40 +379,34 @@
                          <div>
                              <input class="required" type="text" name="FNAME" placeholder="First Name*" id="mce-FNAME" required>
                              <input class="required" type="text" name="LNAME" placeholder="Last Name*" id="mce-LNAME" required>
-                         </div>
-                         <input type="text" name="EMAIL" placeholder="Email*" id="mce-EMAIL" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
-                         <input type="text" name="PHONE" placeholder="Phone number*" id="mce-PHONE" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$" required>
+                            </div>
+                         <input type="text" name="EMAIL" placeholder="Email - per guest*" id="mce-EMAIL" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
+                         <!-- <input type="text" name="PHONE" placeholder="Phone number*" id="mce-PHONE" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$" required> -->
                          <h3 class="form-heading">Your attendance</h3>
                          <div class="question-answer">
                              <div class="question">
                                  <label class="custom-radio-btn">
                                      <span class="label">Accepts with pleasure</span>
-                                     <input type="radio" value="Accepts with pleasure" name="MMERGE6" id="mce-MMERGE6-0" checked>
+                                     <input type="radio" value="Accepts with pleasure" name="MMERGE6" id="mce-MMERGE60" checked>
                                      <span class="checkmark"></span>
                                  </label>
                              </div>
                              <div class="question">
                                  <label class="custom-radio-btn">
                                      <span class="label">Declines with regret</span>
-                                     <input type="radio" value="Regretfully declines" name="MMERGE6" id="mce-MMERGE6-1">
+                                     <input type="radio" value="Regretfully declines" name="MMERGE6" id="mce-MMERGE61">
                                      <span class="checkmark"></span>
                                  </label>
                              </div>
                          </div>
-                         <select name="MMERGE5" class="" id="mce-MMERGE5">
-                             <option value="dietary-requirements" selected>Dietary Requirements</option>
-                             <option value="Vegan">Vegan</option>
-                             <option value="Vegetarian">Vegetarian</option>
-                             <option value="Gluten Free">Gluten Free</option>
-                             <option value="Just feed me!">Just feed me!</option>
-                         </select>
+                         <input class="required" type="text" name="MMERGE5" placeholder="Do you have any dietary requirements?" id="mce-MMERGE5" required>
+                         <input class="required" placeholder="Accommodation location" name="MMERGE9" class="required" id="mce-MMERGE9" required>
                          <h3 class="form-heading">Fun stuff</h3>
                          <p>Got a song that makes you boogie?</p>
                          <div class="music-choice">
                              <input music-title type="text" value="" name="MMERGE7" class="" id="mce-MMERGE7" placeholder="Title">
                              <input music-artist artist-horns type="text" value="" name="MMERGE8" class="" id="mce-MMERGE8" pattern=".*" placeholder="Artist">
                          </div>
-                         <textarea placeholder="What's your best marriage advice?" input type="text" value="" name="MMERGE9" class="" id="mce-MMERGE9"></textarea>
                      </div>
                      <span class="submit-btn">
                      <button class="btn" type="submit">Submit</button>
@@ -412,27 +415,27 @@
                  </form>
              </div>
          </div>
-     </section> -->
+     </section>
 
      <!--IMAGE BORDER BOTTOM  -->
-     <!-- <div class="decorative-border-bottom">
+     <div class="decorative-border-bottom">
          
-     </div> -->
+     </div>
 
 <!-- FOOTER -->
         <section>
             <div class="sign-off-container">
                 <div class="btn-row">
                     
-                        <a class="btn btn-footer" href="">RSVP</a>
+                        <a class="btn btn-footer" href="#RSVP-sec">RSVP</a>
                     
 
             
-                        <a class="btn btn-footer" href="">Gallery</a>
+                        <a class="btn btn-footer btn-footer-gallery" href="#gallery">Gallery</a>
                     
 
                   
-                        <a class="btn btn-footer" href="">Schedule</a>
+                        <a class="btn btn-footer" href="#schedule">Schedule</a>
                  
                 </div>
 
